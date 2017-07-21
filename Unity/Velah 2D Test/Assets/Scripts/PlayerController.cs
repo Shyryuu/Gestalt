@@ -28,6 +28,10 @@ public class PlayerController : MonoBehaviour {
         {
             anim.SetFloat("MovX", mov.x);
             anim.SetFloat("MovY", mov.y);
+            anim.SetBool("walking", true);
+        } else
+        {
+            anim.SetBool("walking", false);
         }
 	}
 
