@@ -17,6 +17,7 @@ public class Combat_Escape_Button : MonoBehaviour {
 
     public void Escape()
     {
+        Debug.Log("Escape button is working!");
         SceneManager.LoadScene("Game");
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("Game"));
     }

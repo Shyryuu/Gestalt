@@ -19,5 +19,7 @@ public class Game_Enemy : MonoBehaviour {
     {
         SceneManager.LoadScene("Combat");
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("Combat"));
+        //Moves the character so they don't collide forever
+        col.transform.position = col.transform.position + new Vector3(0, -2, 0);
     }
 }
