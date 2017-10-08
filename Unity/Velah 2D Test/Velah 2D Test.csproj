@@ -81,7 +81,11 @@
     <Compile Include="Assets\Scripts\Combat_Attack_Button.cs" />
     <Compile Include="Assets\Scripts\Combat_Escape_Button.cs" />
     <Compile Include="Assets\Scripts\Game_Enemy.cs" />
+<<<<<<< HEAD
     <Compile Include="Assets\Scripts\Game_PlayerStats.cs" />
+=======
+    <Compile Include="Assets\Scripts\Game_Game.cs" />
+>>>>>>> 506f4c9acb0a8fd6fb3a31a0872a15ca768c1566
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\warp.cs" />
   </ItemGroup>
